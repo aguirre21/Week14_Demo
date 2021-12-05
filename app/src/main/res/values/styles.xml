@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="mystyle">
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:textSize">40dp</item>
+        <item name="strokeColor">#FF0</item>
+        <item name="strokeWidth">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize50Percent" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.cornerSizeTopLeft.cornerSizeBottomRight" parent="">
+        <item name="cornerSizeTopLeft">25%</item>
+    </style>
+
+</resources>
